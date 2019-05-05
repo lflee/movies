@@ -7,7 +7,7 @@ function ranCinemaComHkMovie(){
     win.focus();
 }
 
-function ranCinemaComHkMovie2019(){
+function ranCinemaComHkMovie19(){
 	var min=11153; 
 	var max=11465; // updated on May-6-2019 
     var random =Math.floor(Math.random() * (+max - +min)) + +min; 

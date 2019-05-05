@@ -1,0 +1,16 @@
+{
+  "name": "movies",
+  "flat": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/lflee/movies.git",
+  "author": "lflee <leelapfung@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0-pre.1",
+    "@webcomponents/webcomponentsjs": "^1.0.14"
+  },
+  "resolutions": {
+    "@webcomponents/webcomponentsjs": "1.0.14"
+  }
+}

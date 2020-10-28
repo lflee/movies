@@ -7,6 +7,21 @@ function randomHKAFF2020(){
     win.focus();
 }
 
+function openCompareHKAFF2020(){
+    var url = "compareHKAFF2020" ;
+    var win = window.open(url, '_blank');
+    win.focus();
+}
+
+function compareHKAFF2020(){
+	var min=1; 
+    var max=56; 
+    var random =Math.floor(Math.random() * (+max - +min)) + +min; 
+    var url = "https://www.hkaff.asia/tc/film/2020/detail/" + random ;
+    document.getElementById("left").src = url ;
+
+
+}
 
 
 function ranCinemaComHkMovie(){

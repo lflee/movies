@@ -1,3 +1,14 @@
+function randomHKAFF2020(){
+	var min=1; 
+    var max=56; 
+    var random =Math.floor(Math.random() * (+max - +min)) + +min; 
+    var url = "https://www.hkaff.asia/tc/film/2020/detail/" + random ;
+    var win = window.open(url, '_blank');
+    win.focus();
+}
+
+
+
 function ranCinemaComHkMovie(){
 	var min=3000; 
 	var max=11465; // updated on May-6-2019 

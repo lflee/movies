@@ -18,6 +18,7 @@ function compareHKAFF2020(){
     var max=56; 
     var random =Math.floor(Math.random() * (+max - +min)) + +min; 
     var url = "https://www.hkaff.asia/tc/film/2020/detail/" + random ;
+    console.log(url);
     document.getElementById("left").src = url ;
 
 
